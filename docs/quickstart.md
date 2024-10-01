@@ -16,4 +16,4 @@ When you enter a custom prompt, the model will attempt to generate a Pd patch ba
 ### Random Patch Generation
 When selecting the random patch generation option, the model will "prompt itself" using a random example from the training data. Since the model has seen these examples before, the results are generally more accurate and functional compared to custom prompts. However, the generated patch may still have limitations in its functionality due to the model's incomplete understanding of more intricate Pd concepts.
 
-See the [Running PatchGen Locally](running-locally.md) for local inference.
+See [Running PatchGen Locally](running-locally.md) for local inference.
