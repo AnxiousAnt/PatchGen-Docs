@@ -1,11 +1,13 @@
 <!-- _coverpage.md -->
 
+<!--
 ![logo](_images\gifmaker_me.gif ':size=60X60')
 ![logo](_images\gifmaker_me.gif ':size=60X60')
 ![logo](_images\gifmaker_me.gif ':size=60X60')
 ![logo](_images\gifmaker_me.gif ':size=60X60')
 ![logo](_images\gifmaker_me.gif ':size=60X60')
 ![logo](_images\gifmaker_me.gif ':size=60X60')
+-->
 
 ![logo](_images\cat1.png ':size=250X250')
 
