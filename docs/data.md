@@ -6,6 +6,7 @@
 - **Total Records**: The dataset contains approximately **39,000** patches.
 - **Patches Used**: A subset of 14,000 patches was used for continued pretraining.
 - **Purpose**: This dataset was utilized in the first phase of the training process to expose the model to Pd syntax and structure. By doing so, the model gains a foundational understanding of how Pd patches are constructed and the common patterns used in patching.
+- **Sources**: [pd-list (community archive)](https://puredata.info/community/lists), [official repository](https://git.purrdata.net/jwilkes/purr-data), [pdpatchrepo](https://forum.pdpatchrepo.info/), [bigcode/the-stack dataset](https://huggingface.co/datasets/bigcode/the-stack/tree/main/data/pure-data) ,etc.
 
 ### Structure of the Dataset:
 - **Filename**: Name of the Pd patch file.

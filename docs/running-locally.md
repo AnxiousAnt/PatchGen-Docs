@@ -26,8 +26,13 @@ Before you begin, make sure you have the following installed on your system:
 
 ## 3. Install Ollama
 1. Visit [Ollama's website](https://ollama.com/) and follow the instructions to download and install Ollama for your operating system.
-   
-2. After installation, verify that Ollama is running:
+
+2. Serve the Ollama model
+    ```bash
+    ollama serve
+    ```
+
+3. Verify that Ollama is running:
     - Open a browser and navigate to `http://localhost:11434`. You should see a message saying "Ollama is running".
 
 ## 4. Download the PatchGen Model
@@ -64,9 +69,9 @@ Before you begin, make sure you have the following installed on your system:
 ## 6. Install the required Python packages
 
 1. Install the requirements:
-        ```bash
-        pip install -r requirements.txt
-        ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ## 7. Running the Text-UI 
 
