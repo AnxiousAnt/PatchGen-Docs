@@ -17,7 +17,15 @@
   - [Data](data.md)
   - [Insights from the collected data](insights.md)
 
+- Training code
+
+  - [Training code docs](training-code.md)
+
 - Model Evaluation and Performance Metrics
 
   - [Model Evaluation and Performance Metrics](eval.md)
   - [Responses for a few test-prompts](test.md)
+
+- GSoC'24 Final Project Report
+
+  - [Final Report](report.md)

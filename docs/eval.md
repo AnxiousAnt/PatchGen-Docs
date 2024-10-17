@@ -16,7 +16,7 @@ To evaluate the performance of the **PatchGen** model, we use several key metric
 
 | Metric                | Description                                                                                       | Value                    |
 | --------------------- | ------------------------------------------------------------------------------------------------- | ------------------------ |
-| **Total Duration**     | Total generation time.                                                                           |51606577300 or 51.6 seconds|
+| **Total Duration**     | Total generation time in nanoseconds.                                                                           |51606577300 or 51.6 seconds|
 | **Load Duration**      | Time in nanoseconds spent loading the model.                                                      |7730916900 or 7.73 seconds |
 | **Prompt Eval Count**  | Number of tokens in the prompt.                                                                   | 21 tokens                 |
 | **Prompt Eval Duration** | Time in nanoseconds spent evaluating the prompt.                                                 |1249035000 or 1.25 seconds|
