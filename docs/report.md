@@ -18,7 +18,7 @@ For detailed project documentation visit [PatchGen Docs](https://anxiousant.gith
 
 ## Current Model Performance
 
-The model demonstrates a solid grasp of Pd syntax and is able to generate some simple patches, but the model does faces challenges in accurately converting natural language descriptions into functional patches. This limitation is primarily due to the limited number of annotated examples, leading to some inconsistencies when handling complex or abstract prompts.
+The model demonstrates a solid grasp of Pd syntax and is able to generate some simple patches, but it faces challenges in accurately converting natural language descriptions into functional patches. This limitation is primarily due to the limited number of annotated examples, leading to some inconsistencies when handling complex or abstract prompts.
 
 ## Code Integration
 
