@@ -20,6 +20,7 @@
 - Training code
 
   - [Training code docs](training-code.md)
+  - [Guide to train your own PatchGen](custom-patchgen.md)
 
 - Model Evaluation and Performance Metrics
 

@@ -119,6 +119,9 @@ I also experimented with Mermaid diagrams to visualize connections between objec
 ### Data Analysis & Word Clouds
 The project included [data visualizations](insights.md) such as sunburst charts and word clouds to analyze the training dataset’s structure. These visualizations provided insights into the most frequent terms and common patterns used in the instructions given to the model.
 
+### Patch Validation
+Added checks for validating the generated patches to look for and flag usage of non-existant pd objects in the patch.
+
 ## Current Model Performance
 
 The model demonstrates a solid grasp of Pd syntax and is able to generate some simple patches, but it faces challenges in accurately converting natural language descriptions into functional patches. This limitation is primarily due to the limited number of annotated examples, leading to some inconsistencies when handling complex or abstract prompts.
