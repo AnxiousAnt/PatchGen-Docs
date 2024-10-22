@@ -71,42 +71,43 @@ Example of a patch file before and after reordering:
 
 **Before Reordering:**
 ```plaintext
-#N canvas 962 288 452 302 10;
-#X obj 150 230 print;
-#X obj 150 160 +;
-#X obj 150 70 t b b;
-#X msg 150 110 1;
-#X msg 180 110 2;
-#X obj 150 50 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
-#000000;
-#X floatatom 150 190 5 0 0 0 - - -, f 5;
-#X connect 1 0 6 0;
+#N canvas 833 168 529 406 10;
+#X obj 160 130 t b b;
+#X obj 160 100 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X floatatom 170 260 5 0 0 0 - - -, f 5;
+#X obj 170 300 print;
+#X text 130 50 divide 48 by 4;
+#X msg 140 170 48;
+#X obj 170 220 /;
+#X msg 190 170 4;
+#X connect 0 0 5 0;
+#X connect 0 1 7 0;
+#X connect 1 0 0 0;
 #X connect 2 0 3 0;
-#X connect 2 1 4 0;
-#X connect 3 0 1 0;
-#X connect 4 0 1 1;
-#X connect 5 0 2 0;
-#X connect 6 0 0 0;
+#X connect 5 0 6 0;
+#X connect 6 0 2 0;
+#X connect 7 0 6 1;
 ```
 
 **After Reordering:**
 ```plaintext
-#N canvas 510 289 454 305 10;
-#X obj 140 47 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
-#000000;
-#X obj 140 70 t b b;
-#X msg 140 120 1;
-#X msg 170 120 2;
-#X obj 140 170 +;
-#X floatatom 140 200 5 0 0 0 - - -, f 5;
-#X obj 140 240 print;
-#X connect 0 0 1 0;
+#N canvas 833 168 529 406 10;
+#X text 130 50 divide 48 by 4;
+#X obj 160 100 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000;
+#X obj 160 130 t b b;
+#X msg 140 170 48;
+#X msg 190 170 4;
+#X obj 170 220 /;
+#X floatatom 170 260 5 0 0 0 - - -, f 5;
+#X obj 170 300 print;
 #X connect 1 0 2 0;
-#X connect 1 1 3 0;
-#X connect 2 0 4 0;
-#X connect 3 0 4 1;
-#X connect 4 0 5 0;
+#X connect 2 0 3 0;
+#X connect 2 1 4 0;
+#X connect 3 0 5 0;
+#X connect 4 0 5 1;
 #X connect 5 0 6 0;
+#X connect 6 0 7 0;
 ```
 This alternate representation potentially offers a more consistent structure for the model to learn from, with objects appearing in a predictable order based on their visual layout in the patch.
 
